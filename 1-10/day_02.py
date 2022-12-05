@@ -1,4 +1,4 @@
-#Challenge #2: Strings to Integers
+#Challenge 2: Strings to Integers
 def convert_add(nums):
     return sum(map(int,nums))
 
