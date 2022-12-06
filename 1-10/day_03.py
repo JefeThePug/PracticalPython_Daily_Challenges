@@ -4,7 +4,7 @@ def register_check(reg):
 
 #Extra Challenge: Lowercase Names
 def lower_names(names):
-    return tuple(n for n in sorted(names,reverse=True) if n == n.lower())
+    return tuple(n for n in sorted(names,reverse=True) if n.islower())
     
 register = {'Michael': 'yes', 'John': 'no', 'Peter': 'Yes', 'Mary': 'Yes'}
 print(register_check(register))
