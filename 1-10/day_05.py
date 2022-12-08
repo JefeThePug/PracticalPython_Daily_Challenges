@@ -25,7 +25,7 @@ def male_and_female2(students):
 def male_and_female3(students):
     nums = [0,0]
     for student in students:
-        nums[len(student)//2-1] += 1
+        nums[len(student)//2-2] += 1
     return list(zip(["Male","Female"], nums))
 
 print(my_discount())
