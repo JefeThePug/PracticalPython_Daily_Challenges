@@ -1,7 +1,7 @@
 #Challenge 5: My Discount
 def my_discount():
-    price = int(input("Input the price: "))
-    discount = int(input("Input the discount: ").replace("%",""))
+    price = float(input("Input the price: "))
+    discount = float(input("Input the discount: ").replace("%",""))
     return price - price * discount / 100
 
 #Extra Challenge: Tuple of Student Sex
