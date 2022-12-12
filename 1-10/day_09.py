@@ -5,7 +5,7 @@ def biggest_odd(nums):
 #Extra Challenge: Zeros to the End
 def zeros_last(arr):
     zeros = [0] * arr.count(0)
-    return ([*filter(None, arr)] + zeros) if zeros else sorted(arr)
+    return [*filter(None, arr)] + zeros if zeros else sorted(arr)
 
 print(biggest_odd("23569"))
 print(biggest_odd("246810"))
