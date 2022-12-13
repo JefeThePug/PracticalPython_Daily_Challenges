@@ -1,6 +1,5 @@
 #Challenge 10: Hide My Password
-def hide_password():
-    pwd = input("Enter your password: ")
+def hide_password(pwd):
     return f'{"*"*len(pwd)} : Password is {len(pwd)} characters long.'
 
 #Extra Challenge: A Thousand Separator
