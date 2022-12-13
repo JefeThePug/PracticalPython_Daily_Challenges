@@ -1,11 +1,11 @@
-#Challenge #: TITLE
-def :
-    return 
+#Challenge 10: Hide My Password
+def hide_password():
+    pwd = input("Enter your password: ")
+    return f'{"*"*len(pwd)} : Password is {len(pwd)} characters long.'
 
-#Extra Challenge: TITLE
-def :
-    return 
+#Extra Challenge: A Thousand Separator
+def add_separator(nums):
+    return [f'{num:,}' for num in nums]
 
-print()
-print()
-print()
+print(hide_password())
+print(add_separator([1000000, 2356989, 2354672, 9878098]))
