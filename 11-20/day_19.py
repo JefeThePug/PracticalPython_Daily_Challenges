@@ -1,11 +1,10 @@
-#Challenge #: TITLE
-def :
-    return 
+#Challenge 19: Words and Elements
+def count_words(s):
+    return f'{len(s.split())} words'
 
-#Extra Challenge: TITLE
-def :
-    return 
+def count_elements(s):
+    return f'{len(s.replace(" ",""))} elements'
 
-print()
-print()
-print()
+txt = 'I love learning'
+print(count_words(txt))
+print(count_elements(txt))
