@@ -1,11 +1,15 @@
-#Challenge #: TITLE
-def :
-    return 
+#Challenge 22: Add Under_Score
+def add_hash(s):
+    return '#'.join(s.split())
 
-#Extra Challenge: TITLE
-def :
-    return 
+def add_underscore(s):
+    return s.replace('#','_')
 
-print()
-print()
-print()
+def remove_underscore(s):
+    return s.replace('_','')
+
+txt='Python'
+print(remove_underscore(add_underscore(add_hash(txt))))
+
+txt='This is a pointless exercise'
+print(remove_underscore(add_underscore(add_hash(txt))))
