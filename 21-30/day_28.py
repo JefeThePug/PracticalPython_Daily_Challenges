@@ -3,7 +3,7 @@ def index_position(s):
 
 #Extra Challenge: Largest Number
 def largest_number(nums):
-    return int("".join(sorted("".join(map(str,nums))))[::-1])
+    return f'{int("".join(sorted("".join(map(str,nums))))[::-1]):,}'
 
 print(index_position('LovE'))
 print(index_position('LOVE'))
