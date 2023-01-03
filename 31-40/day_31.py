@@ -1,8 +1,9 @@
 #Challenge 31: Longest Word
 def longest_word(words):
-    return max([[len(w),w] for w in words], key=lambda x: len(x[1]))
+    return max(([len(w),w] for w in words))
+    #Thanks Zadok
 
-#Extra Challenge: TITLE
+#Extra Challenge: Create User
 def create_user():
     a,b,c = ['Input your first name: ', 'Input your age: ', 'Input your desired password: ']
     user = {'name': input(a), 'age': input(b), 'password': input(c)}
