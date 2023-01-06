@@ -7,11 +7,9 @@ def inter_section(a, b):
 from timeit import timeit
 
 def set_or_list(rng, n):
-    if n >= rng: return 'Cannot time this result'
-
-    code = f'{n} in list(range({rng}))'
+    code = f'{n} in {list(range(rng))}'
     time_list = timeit(code, number = 100)
-    code = f'{n} in set(range({rng}))'
+    code = f'{n} in {set(range(rng))}'
     time_set = timeit(code, number = 100)
     print(f'{time_list = } seconds\n{time_set = } seconds'.replace('time_',''))
     
