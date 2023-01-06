@@ -1,11 +1,9 @@
-#Challenge #: TITLE
-def :
-    return 
+#Challenge 34: Just Digits
+import csv
 
-#Extra Challenge: TITLE
-def :
-    return 
+def just_digits():
+    with open('day_34_python.csv', 'r') as raw_data:
+        words = raw_data.read().split()
+        return [i for i in words if i.isdigit()]
 
-print()
-print()
-print()
+print(just_digits())
