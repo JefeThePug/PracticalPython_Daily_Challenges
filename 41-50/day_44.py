@@ -12,7 +12,7 @@ def save_emails():
 def open_emails():
     with open('day_44_emails.csv', 'r') as file:
         reader = [''.join(line) for line in csv.reader(file)]
-        return '\n'.join(reader)
+        return ' '.join(reader)
 
 
 #Probably better to ignore the csv aspect of this and do it with just a file.
