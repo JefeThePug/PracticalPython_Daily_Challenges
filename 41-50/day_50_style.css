@@ -1,0 +1,116 @@
+/* Jefe the Pug Page Style Sheet*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    background-image: url("day_50_bg.jpg");
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav {
+    height: 3vw;
+    position: fixed;
+    width: 100%;
+}
+
+.captionbox {
+    position: relative;
+    top: 75%;
+    width: 100%;
+}
+
+.caption {
+    overflow: hidden;
+    margin-left: 0.7vw;
+    background-color:rgba(100, 100, 100, 0.9);
+    border:0.5vw dashed deepskyblue;
+    text-align: center;
+    letter-spacing: 0.5vw;
+    width: 40%;
+}
+
+.textbox{
+    background-color: rgba(40,40,40, 0.9);
+    position: absolute;
+    top: 80%;
+    width: 100%;
+}
+
+.border {
+    border:0.5vw dotted deepskyblue;
+    margin: 1.5vw;
+}
+
+.text {
+    letter-spacing: 0.7vw;
+    text-transform: uppercase;
+    font: 1.5vw "Lato", sans-serif;
+    color: whitesmoke;
+    margin: 3vw;
+}
+
+
+.copywrite {
+    text-transform: none;
+    font-size: 1vw;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: deepskyblue;
+    text-transform: none;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    background-color: rgba(100, 100, 100, 0.9);
+}
+
+li {
+    float: right;
+    font-size: 2vw;
+    text-align: center;
+    display: block;
+    color: deepskyblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 1vw 3vw;
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+a:hover:not(.active):not(.disabled) {
+    background-color: rgb(70, 70, 70);
+}
+
+.active {
+  background-color: deepskyblue;
+  color: rgb(40,40,40);
+}
+
+h1 {
+    color:deepskyblue;
+    font-size: 2.3vw;
+    margin: 0;
+}
+
+h2 {
+    color:whitesmoke;
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin:0;
+}
